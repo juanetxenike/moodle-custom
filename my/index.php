@@ -182,6 +182,8 @@ if (core_userfeedback::should_display_reminder()) {
     core_userfeedback::print_reminder_block();
 }
 
+echo "BINGO";
+
 echo $OUTPUT->addblockbutton('content');
 
 echo $OUTPUT->custom_block_region('content');
